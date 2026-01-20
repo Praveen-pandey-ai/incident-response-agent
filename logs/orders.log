@@ -1,0 +1,6 @@
+2026-01-17T10:39:00Z INFO Orders service started successfully
+2026-01-17T10:40:30Z INFO Processing order requests normally
+2026-01-17T10:44:40Z WARN Slight increase in order processing latency
+2026-01-17T10:46:10Z INFO Order processed successfully
+2026-01-17T10:47:00Z INFO Order processed successfully
+2026-01-17T10:48:20Z INFO Order processed successfully
