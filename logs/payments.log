@@ -1,0 +1,7 @@
+2026-01-17T10:39:10Z INFO Payments service started successfully
+2026-01-17T10:40:20Z INFO Processing payment requests normally
+2026-01-17T10:43:05Z WARN Slow response from auth-service during token validation
+2026-01-17T10:44:15Z ERROR Payment request failed: auth-service timeout
+2026-01-17T10:45:10Z ERROR Payment request failed: unable to validate user token
+2026-01-17T10:46:30Z WARN Retrying payment after auth failure
+2026-01-17T10:47:20Z ERROR Payment request failed: auth-service unreachable
