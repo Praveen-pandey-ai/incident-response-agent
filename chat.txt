@@ -1,0 +1,9 @@
+[10:43] Alice (on-call): Seeing increased login failures. Anyone else noticing this?
+[10:44] Bob (payments): Payments are timing out for me, might be related.
+[10:45] Charlie (infra): Could this be a network issue? Seeing some latency.
+[10:46] Alice (on-call): Auth latency is definitely high. Errors increasing.
+[10:47] Dana (db): Checking DB metrics now.
+[10:48] Dana (db): Auth DB connections look saturated.
+[10:49] Alice (on-call): That explains it. Let’s treat auth as primary.
+[10:50] Bob (payments): Payments failing due to auth token validation.
+[10:51] Alice (on-call): Declaring SEV-2. Escalating to auth team.
