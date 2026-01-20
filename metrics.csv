@@ -1,0 +1,14 @@
+timestamp,service,latency_ms,error_rate
+2026-01-17T10:38:00Z,auth-service,120,0.01
+2026-01-17T10:40:00Z,auth-service,130,0.01
+2026-01-17T10:41:00Z,auth-service,450,0.06
+2026-01-17T10:42:00Z,auth-service,620,0.09
+2026-01-17T10:44:00Z,auth-service,700,0.11
+
+2026-01-17T10:40:00Z,payments-service,150,0.01
+2026-01-17T10:43:00Z,payments-service,300,0.03
+2026-01-17T10:45:00Z,payments-service,520,0.07
+
+2026-01-17T10:40:00Z,orders-service,180,0.01
+2026-01-17T10:45:00Z,orders-service,210,0.02
+2026-01-17T10:47:00Z,orders-service,220,0.02
