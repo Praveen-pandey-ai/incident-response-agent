@@ -1,0 +1,9 @@
+2026-01-17T10:38:45Z INFO Auth service started successfully
+2026-01-17T10:39:30Z INFO Processing login requests normally
+2026-01-17T10:40:55Z WARN Slow response detected while querying user database
+2026-01-17T10:41:10Z ERROR Database connection pool exhausted
+2026-01-17T10:41:25Z ERROR Failed to acquire DB connection within timeout
+2026-01-17T10:42:05Z ERROR Login request failed due to DB timeout
+2026-01-17T10:43:20Z ERROR Login request failed due to DB timeout
+2026-01-17T10:44:10Z WARN Retrying database connection
+2026-01-17T10:45:00Z ERROR Database connection pool exhausted
