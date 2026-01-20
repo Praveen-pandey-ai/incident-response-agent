@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-01-17T10:42:00Z",
+    "service": "auth-service",
+    "severity": "medium",
+    "message": "Authentication latency above normal threshold"
+  },
+  {
+    "timestamp": "2026-01-17T10:44:30Z",
+    "service": "auth-service",
+    "severity": "high",
+    "message": "Login error rate exceeded 5%"
+  },
+  {
+    "timestamp": "2026-01-17T10:46:10Z",
+    "service": "payments-service",
+    "severity": "medium",
+    "message": "Payment requests timing out"
+  },
+  {
+    "timestamp": "2026-01-17T10:48:00Z",
+    "service": "orders-service",
+    "severity": "low",
+    "message": "Slight increase in order processing latency"
+  }
+]
