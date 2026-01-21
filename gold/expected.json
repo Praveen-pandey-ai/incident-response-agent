@@ -1,0 +1,35 @@
+{
+  "expected_impacted_services": [
+    "auth-service",
+    "payments-service"
+  ],
+  "expected_severity": "SEV-2",
+  "expected_start_time": "2026-01-17T10:41:00Z",
+  "expected_timeline_anchors": [
+    {
+      "timestamp": "2026-01-17T10:40:55Z",
+      "description": "Auth service begins showing slow database responses"
+    },
+    {
+      "timestamp": "2026-01-17T10:41:10Z",
+      "description": "Auth-service database connection pool exhaustion error appears"
+    },
+    {
+      "timestamp": "2026-01-17T10:42:00Z",
+      "description": "Auth-service latency and error rate spike detected in metrics"
+    },
+    {
+      "timestamp": "2026-01-17T10:43:05Z",
+      "description": "Payments-service experiences auth timeout during token validation"
+    },
+    {
+      "timestamp": "2026-01-17T10:44:15Z",
+      "description": "Payment requests fail due to upstream auth-service timeout"
+    },
+    {
+      "timestamp": "2026-01-17T10:48:00Z",
+      "description": "Incident severity declared as SEV-2 and auth team escalation initiated"
+    }
+  ],
+  "expected_root_cause": "Auth-service database connection pool exhaustion following deployment"
+}
