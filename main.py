@@ -1,5 +1,6 @@
 from state.graph import build_incident_graph
 from report_writer import write_incident_report
+from action_items_writer import write_action_items
 
 
 def main():
@@ -41,6 +42,13 @@ def main():
     write_incident_report(final_result)
 
     print("\n✔ incident_report.md generated successfully\n")
+
+    write_action_items(final_result)
+
+    print("✔ action_items.json generated successfully\n")
+
+
+    
 
 
 if __name__ == "__main__":

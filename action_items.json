@@ -1,0 +1,22 @@
+[
+  {
+    "task": "Increase database connection pool limits for auth-service",
+    "priority": "high",
+    "owner": "database-team"
+  },
+  {
+    "task": "Review recent auth-service deployment for connection leaks",
+    "priority": "high",
+    "owner": "auth-team"
+  },
+  {
+    "task": "Add early-warning alerts for auth-service latency spikes",
+    "priority": "medium",
+    "owner": "auth-team"
+  },
+  {
+    "task": "Improve resilience of payments-service against auth-service timeouts",
+    "priority": "medium",
+    "owner": "payments-team"
+  }
+]
