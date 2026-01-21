@@ -218,67 +218,7 @@ The Agentic Incident Response system was evaluated against a predefined gold cas
 
 ---
 
-## 📝 Usage Example
-
-```python
-from main import IncidentResponseAgent
-
-# Initialize the agent
-agent = IncidentResponseAgent()
-
-# Run investigation
-report = agent.investigate(
-    logs_path="logs/",
-    metrics_path="metrics.csv",
-    alerts_path="alerts.json",
-    chat_path="chat.txt"
-)
-
-# Access results
-print(report.timeline)
-print(report.root_cause)
-print(report.severity)
-```
-
----
-
-## 🧪 Testing
-
-Run test scenarios to validate agent behavior:
-
-```bash
-python -m pytest tests/
-```
-
-Or review predefined scenarios:
-
-```bash
-cat tests/test_scenarios.md
-```
-
----
-
-## 📚 Documentation
-
-- [Investigation Workflow](docs/workflow.md)
-- [Agent Specifications](docs/agents.md)
-- [Tool Reference](docs/tools.md)
-- [Test Results](tests/test_scenarios.md)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please ensure:
-
-- All claims are evidence-backed
-- Tests pass before submitting PRs
-- Code follows the modular agent pattern
-- Documentation is updated
-
----
-
-## 📄 License
+##  License
 
 This project is licensed under the MIT License. See LICENSE for details.
 
