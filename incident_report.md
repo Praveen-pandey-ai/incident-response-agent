@@ -4,7 +4,7 @@
 An incident was detected involving partial service degradation. This report summarizes the impact, timeline, and root cause analysis based on metrics, logs, and validated evidence.
 
 ## Impact
-- Impacted services: auth-service, orders-service, payments-service
+- Impacted services: auth-service, payments-service, orders-service
 - User-facing authentication and payment flows were affected.
 
 ## Severity
